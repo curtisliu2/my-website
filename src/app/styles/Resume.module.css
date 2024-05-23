@@ -1,0 +1,33 @@
+.resumeContainer {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.title {
+
+    font-size: x-large;
+}
+
+.subTitle {
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+    color: black
+}
+
+.link {
+    color: #06c;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.h3 {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
