@@ -3,11 +3,39 @@ import Timeline from "@/app/components/Timeline";
 import React from "react";
 import { motion } from 'framer-motion';
 import Navbar from "@/app/components/Navbar";
+import { ListBulletIcon } from "@heroicons/react/24/solid";
 
 const Page = () => {
     const timelineEvents = [
         {
-            title: "Graduation 🎓",
+            title: "Juniper Systems 🧑‍💻",
+            date: "06/24 to Present",
+            description: "I am a Manufacturing Software Engineer for Juniper Systems, some of my current responsibility include:",
+            bullets: [
+                "Develop software for the manufacturing department uses for product testing.",
+                "Provides solutions to problems in product operating systems, operating systems omissions, and otherapplication problems found by customers and other departments.",
+                "Aids in design and devolpment of software applications for products.",
+                "Supports the manufacturing line by solving problems and determining necessary changes to the assembly procedures.",
+                "Performs and implements product and process improvement to reduce waste of materials and utilities, improve efficiency, imrpove quality and reduce variability.",
+                "Workes in conjuction with Quality Assurance to help maintain documentation for standards of acceptability and performing incoming inspections, verifying acceptability, and data tracking.",
+                "Helping customer service and marketing provide solutions for customers by answering technical questions about our products."
+            ],
+            imageUrls: [
+                "/images/juniperpfp.jpg",
+                "/images/juniperlogo.png"
+            ]
+
+        },
+        {
+            title: "Pursuing a Masters in Science 🏫",
+            date: "08/25 to Present",
+            description: "Pursuing a Master of Computer Science degree at Utah State University.",
+            imageUrls: [
+                "/images/usulogo.png"
+            ]
+        },
+        {
+            title: "Graduating in a Bachelors of Science 🎓",
             date: "05/02/2024",
             description: "Earned a Bachelor of Science degree in Computer Science from Utah State University.",
             bullets: [
@@ -18,9 +46,9 @@ const Page = () => {
             ]
         },
         {
-            title: "Current Employment",
-            date: "May 2021 to Present",
-            description: "I am currently a Sales Advisor at Best Buy, who answers customer questions and navigated them through solutions for their daily tech needs.",
+            title: "Best Buy 💻",
+            date: "05/21 to Present",
+            description: "I am a Sales Advisor at Best Buy, who answers customer questions and navigated them through solutions for their daily tech needs.",
             imageUrls: ["/images/CurtisBestBuy.jpg"]
         },
         {

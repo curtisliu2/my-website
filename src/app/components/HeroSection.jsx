@@ -67,7 +67,7 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-8 lg:text-xl lg:pr-24">
-                        I'm a {age}-year-old software engineer from the United States. My journey in technology started with a deep curiosity about how things work, driving me to build new innovations and enhance existing ones.
+                        I'm a {age}-year-old software engineer who is currently located in Logan, Utah. My journey in technology started with a deep curiosity about how things worked, driving me to build new innovations and enhance existing ones.
                         This curiosity led me to pursue a degree in computer science, where I gained a solid foundation in both theoretical and practical aspects of software engineering. I've always believed in the mindset of "I can do it better" whenever faced with technological challenges, and now, more than ever, I'm ready to turn that belief into reality.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center sm:items-start">
